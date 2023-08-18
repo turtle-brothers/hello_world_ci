@@ -21,7 +21,6 @@ jobs:
 
       - name: Install and Build
         run: |
-          # npm ci
           npm run build  # Reactアプリケーションのビルドコマンド
 
       - name: Assume AWS Role via OIDC
