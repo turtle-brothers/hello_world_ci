@@ -25,7 +25,7 @@ jobs:
           npm ci
           npm run build  # Reactアプリケーションのビルドコマンド
 
-      - name: Assume AWS Role(OIDC)
+      - name: Assume AWS Role OIDC
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-to-assume: arn:aws:iam::122905384833:role/zumens-dev-githubactions-iam-role
