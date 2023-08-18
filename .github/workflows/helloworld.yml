@@ -36,4 +36,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./build s3://myapp-dev-deploy-bucket-plo4pm
+          aws s3 sync ./frontend/app/build s3://myapp-dev-deploy-bucket-plo4pm
